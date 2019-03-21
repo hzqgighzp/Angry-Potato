@@ -1,0 +1,1835 @@
+[
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "custom_user",
+    "model": "userprofile"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "myapp",
+    "model": "classifymodel"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "myapp",
+    "model": "moviemodel"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "myapp",
+    "model": "commentmodel"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "673udem9bwkzkoc6atuj1fq6ztxgrmqm",
+  "fields": {
+    "session_data": "ZGExMzBlZjZmNzdiYWQ5ZDQzZjk3NjEwYWMxN2FlM2M2OTA3MjVhYzp7fQ==",
+    "expire_date": "2019-03-29T12:18:13.004Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "e11tm3z81vea7vb5rqaqwjm4lngsesyc",
+  "fields": {
+    "session_data": "YTAwYzc1ZTYwMDNmZmUzNTk4Mjc3MTA5NzQyNmJmM2M3YzRiNmM2Zjp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiI4Mzg2NmI4MDFlMDU5Y2NkNTI3MmM5Mjk3MzJlOGI0MjY1Mzc1MTRkIn0=",
+    "expire_date": "2019-03-29T05:17:49.608Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "o5rc1ql44ezc7qyiwsw7qy71zh1kg91n",
+  "fields": {
+    "session_data": "YTAwYzc1ZTYwMDNmZmUzNTk4Mjc3MTA5NzQyNmJmM2M3YzRiNmM2Zjp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiI4Mzg2NmI4MDFlMDU5Y2NkNTI3MmM5Mjk3MzJlOGI0MjY1Mzc1MTRkIn0=",
+    "expire_date": "2019-03-29T04:59:32.905Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "oyxkia70siq16kcosx5pw2cump9wdur1",
+  "fields": {
+    "session_data": "YTAwYzc1ZTYwMDNmZmUzNTk4Mjc3MTA5NzQyNmJmM2M3YzRiNmM2Zjp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiI4Mzg2NmI4MDFlMDU5Y2NkNTI3MmM5Mjk3MzJlOGI0MjY1Mzc1MTRkIn0=",
+    "expire_date": "2019-03-29T03:20:06.660Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "p10x8nd5zyopgt32czh8nngsavtq9b8q",
+  "fields": {
+    "session_data": "YTAwYzc1ZTYwMDNmZmUzNTk4Mjc3MTA5NzQyNmJmM2M3YzRiNmM2Zjp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiI4Mzg2NmI4MDFlMDU5Y2NkNTI3MmM5Mjk3MzJlOGI0MjY1Mzc1MTRkIn0=",
+    "expire_date": "2019-03-28T21:52:33.733Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "tzi1squgjaat9z0p0ta6qwhxk6tv5jyx",
+  "fields": {
+    "session_data": "YTAwYzc1ZTYwMDNmZmUzNTk4Mjc3MTA5NzQyNmJmM2M3YzRiNmM2Zjp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiI4Mzg2NmI4MDFlMDU5Y2NkNTI3MmM5Mjk3MzJlOGI0MjY1Mzc1MTRkIn0=",
+    "expire_date": "2019-04-04T15:28:48.786Z"
+  }
+},
+{
+  "model": "myapp.classifymodel",
+  "pk": 1,
+  "fields": {
+    "name": "Comedy"
+  }
+},
+{
+  "model": "myapp.classifymodel",
+  "pk": 2,
+  "fields": {
+    "name": "Action"
+  }
+},
+{
+  "model": "myapp.classifymodel",
+  "pk": 3,
+  "fields": {
+    "name": "Romantic"
+  }
+},
+{
+  "model": "myapp.classifymodel",
+  "pk": 4,
+  "fields": {
+    "name": "Science fiction"
+  }
+},
+{
+  "model": "myapp.classifymodel",
+  "pk": 5,
+  "fields": {
+    "name": "Horror"
+  }
+},
+{
+  "model": "myapp.classifymodel",
+  "pk": 6,
+  "fields": {
+    "name": "Adventure"
+  }
+},
+{
+  "model": "myapp.classifymodel",
+  "pk": 7,
+  "fields": {
+    "name": "Tokusatsu"
+  }
+},
+{
+  "model": "myapp.classifymodel",
+  "pk": 8,
+  "fields": {
+    "name": "Literary"
+  }
+},
+{
+  "model": "myapp.moviemodel",
+  "pk": 1,
+  "fields": {
+    "name": "King of Comedy",
+    "detail": "Yin Tianqiu (Zhou Xingchi) has been fascinated by drama and wants to be an actor. In addition to running a dragon, he will also set up an actor training class in the Kaifang Welfare Association. At this time, Miss Dance Liu fluttered in the leadership of Mama Sang and asked to learn to play. It turned out that Liu fluttering had a very unpleasant experience. In the process of Yin Tianqiu\u2019s guidance to her, Liu fluttering grew up against Yin Tianqiu. Feelings, she also became a popular lady in the nightclub. After Yin Tianqiu received a lot of white eyes, he finally got the appreciation of the big star sister (Mo Wenwei), carrying him to play the leading role in the new play, but did not expect to suddenly change his role and disappoint him. No. The identity of the undercover police officer (Wu Mengda) who was on the spot was recognized, and Yin Tianqiu\u2019s help was broken. After that, Yin Tianqiu continued to be active in the actor training class of the Kaifang Welfare Association.",
+    "pic": "image/GGSJGP_QR7DZM1B13L.png",
+    "actor": "Stephen Chow / Cecilia Cheung",
+    "duration": 85,
+    "star": 12,
+    "publish_time": "1992-02-13T12:00:00Z",
+    "create_time": "2019-03-14T22:06:53.899Z",
+    "classify": 1
+  }
+},
+{
+  "model": "myapp.moviemodel",
+  "pk": 2,
+  "fields": {
+    "name": "Iron Man",
+    "detail": "Stark Arms is the world's largest supplier of arms to the world, and its new head, Tony Stark (Robert Downey Jr.), is a talented and talented person. He worked with the company's veteran, Obadia Stein (Jeff Briggis Jeff Bridges), to bring Stark's business to the top. Tony in the real life is keen to collect expensive sports cars and make some inventions and creations. Of course, the marriage of dew is even more essential. Fortunately, he had a good assistant like Virginia Potts (Gwyneth Paltrow) to take care of everything, so that he was free to live the life of your son.",
+    "pic": "image/1.png",
+    "actor": "Art Macomb / Matt Holloway",
+    "duration": 126,
+    "star": 4,
+    "publish_time": "2008-05-02T22:24:00Z",
+    "create_time": "2019-03-14T22:24:17.814Z",
+    "classify": 4
+  }
+},
+{
+  "model": "myapp.moviemodel",
+  "pk": 3,
+  "fields": {
+    "name": "Fast & Furious 7",
+    "detail": "After a thrilling London war, Dominique Torreto (Van Diesel) and his friends returned to a peaceful life, but the grace and resentment of the rivers and lakes never allowed them to take it easy. . The tricky rival, Owen Shaw, was in the hospital and couldn't move. His brother Dyke Shaw (Jason Stantham) vowed to avenge his brother. Dyke was the ace of the US special forces, not only with stunts, but also with a slap in the face. He killed the Korean who was far away from Tokyo, and almost sent the inspector Luke Hobbs (Dwayne Johnson) to another world. Even the home of Dominica was blown up by the other side.",
+    "pic": "image/2.png",
+    "actor": "Van Diesel / Paul Walker",
+    "duration": 137,
+    "star": 2,
+    "publish_time": "2014-05-12T18:00:00Z",
+    "create_time": "2019-03-14T22:26:07.793Z",
+    "classify": 2
+  }
+},
+{
+  "model": "myapp.moviemodel",
+  "pk": 4,
+  "fields": {
+    "name": "New Police Story",
+    "detail": "The group of police officers of Chen Guorong (Cheng Long) is the elite of the police force and has solved numerous crimes. Azu (Wu Yanzu) is the son of the chief police officer, but has colluded with several high-ranking children (Jiang Yizhen, Yin Ziwei, An Zhijie, Ye Shanhao) to challenge the police. When they went to the bank to rob, the alarm bell rang when the police arrived, they brought Arong and the team members into an empty warehouse that had already been designed. The police officers were trapped in the game program that had been designed by the gangsters, and they were cruelly killed. Even the brother of Arong\u2019s girlfriend (Yang Caini) was not spared. Arong was suspended from this, and he broke up with the guilt. Ah Rong, who was drunk all day, met A Feng (Xie Weifeng) at the bar. In order to cheer up Arong, Ah Feng decided to pretend that the police told Arong that he was a new police officer sent by the boss to ask Arong to help turn the case. Arong met the group of criminals who attacked him. They fought bravely with them. With the help of police flower salsa (Cai Zhuoyu), they knew that the incidents of the criminals were compiled into a game, and they also knew what intelligence was in the year. The cause of the leak",
+    "pic": "image/3.png",
+    "actor": "Jackie Chan / Nicholas Tse",
+    "duration": 123,
+    "star": 4,
+    "publish_time": "2014-09-12T12:00:00Z",
+    "create_time": "2019-03-14T22:27:45.113Z",
+    "classify": 2
+  }
+},
+{
+  "model": "myapp.moviemodel",
+  "pk": 5,
+  "fields": {
+    "name": "Saw",
+    "detail": "The waking Adam (Leigh Whannell) found himself trapped in an abandoned toilet. He was opposite Lawrence (Cary Elwes), who was tied up with chains and was surprised to find a horrible dead man in the middle of the two. The blood of the dead is dripping, and the left hand is holding the gun in the right hand of the recorder. Adam put a tape in his pocket and he quickly put it in the recorder. The tape said that Lawrence must kill Adam before 6 o'clock tonight, otherwise the two will die together, and Lawrence's family will not be spared. The blood flowing out of the dead in front of him is extremely poisonous. A bloody death game begins. In the remaining time, they must find clues and escape from hell. At the last minute, when they thought they would see the sky again, a new round of nightmare was just beginning.",
+    "pic": "image/4.png",
+    "actor": "Ray Warner / Gary Elvis",
+    "duration": 103,
+    "star": 2,
+    "publish_time": "2004-01-19T22:29:00Z",
+    "create_time": "2019-03-14T22:29:47.987Z",
+    "classify": 5
+  }
+},
+{
+  "model": "myapp.moviemodel",
+  "pk": 6,
+  "fields": {
+    "name": "Goodbye Mr.Loser",
+    "detail": "In the wedding of the first love Qiu Ya (Wang Zhi ornaments) in the student era, after eating, the soft rice was eaten by his wife, Xialuo (Shen Teng), and he was full of ugliness. He was also married by his wife Ma Dongmei (Ma Li) Debunking temper. In the midst of chaos, Charlotte unexpectedly traveled through time and space and returned to the classroom of the 1997 student era. He ignorant, thought it was a dream of realism, so he screamed at Wang, kissed Qiuya, and tried to jump off the building to wake himself up. When the injured he woke up from his bed, he realized that he really crossed the time and space. Since there is a chance to come back, it is better to toss it back. He bravely pursued Qiu Ya, the fallen superior student Yuan Hua (Yin Zheng ornaments), and refused Ma Dongmei's stalker. Later, Charlotte entered the entertainment circle with the famous songs of \u201cCreating\u201d Pu Shu and Dou Wei.\r\nHis life has undergone tremendous changes, but somewhere in the heart, he feels more and more empty...",
+    "pic": "image/5.png",
+    "actor": "Shen Teng / Ma Li",
+    "duration": 104,
+    "star": 5,
+    "publish_time": "2015-09-30T00:00:00Z",
+    "create_time": "2019-03-14T22:32:54.008Z",
+    "classify": 1
+  }
+},
+{
+  "model": "myapp.moviemodel",
+  "pk": 7,
+  "fields": {
+    "name": "You're The Apple Of My Eyes",
+    "detail": "Youth is a heavy rain. Even if I have a cold, I look forward to seeing it again. Life is a constant battle. When you have not been favored by the goddess, the left hand is always only an aid! ! !\r\nKe Jingteng (Ke Zhendong) and his group of friends, who love to play handsome but always frustrated Lao Cao (ao quan), can not stop the erection, so called the erection of erection (sheng yu), want to use funny to win but always fail On the side (Cai Changxian), the fat-loving master of the fat world, Ahe (hao shao wen), has been an eternal party from the middle to the high school. They all have a tangled feeling towards Ban Hua Shen Jiayi (Chen Yuxi). On the one hand, they look down on the girls who only study hard, and on the other hand they dumped her good temperament. Because of poor academic performance, Ke Jingteng was arranged by the teacher to sit in front of Shen Jiayi. Because his hero saved the beauty, she began to help him with his homework in a compulsory way. This incident made other brothers envy and hate, but everyone did not say it. After graduation, Ke Jingteng and Shen Jiayi maintained a lover-like connection at their respective universities. It wasn't until he held the free fighting game that things changed. This series of friends, who were originally unmoved, are also...",
+    "pic": "image/6.png",
+    "actor": "Ke Zhendong / Chen Yuxi",
+    "duration": 110,
+    "star": 4,
+    "publish_time": "2012-01-06T18:00:00Z",
+    "create_time": "2019-03-14T22:35:43.517Z",
+    "classify": 3
+  }
+},
+{
+  "model": "myapp.moviemodel",
+  "pk": 8,
+  "fields": {
+    "name": "Soul Mate",
+    "detail": "The first acquaintance of July (Ma Sichun) and An Sheng (Zhou Dongyu) was at the age of thirteen. One of them was a \"wild child\" who was a maverick, and a \"prostitute\" who was simply gentle and disciplined. At the beginning of the year, July and Ansheng were almost inseparable. She was her light. She was her shadow. Until one day, a teenager named Su Jiaming (Li Chengbin) appeared in July and fell in love in July.\r\nAnsheng decided to go to Beijing to discuss his life. Before leaving, in July, he unexpectedly discovered that Yu Jiaming, who was wearing Sujiaming, appeared in the collar of Ansheng. An Sheng left, and the relationship between Su Jiaming and Su Jiaming continued in July. They were admitted to the same university and agreed to get married as soon as they graduated. However, things did not develop as I imagined in July, and the relationship between her and Su Jiaming also produced new variables because of the return of An Sheng.",
+    "pic": "image/7.png",
+    "actor": "Zhou Dongyu / Ma Sichun",
+    "duration": 109,
+    "star": 4,
+    "publish_time": "2016-09-14T22:37:00Z",
+    "create_time": "2019-03-14T22:37:18.348Z",
+    "classify": 3
+  }
+},
+{
+  "model": "myapp.moviemodel",
+  "pk": 9,
+  "fields": {
+    "name": "Avatar",
+    "detail": "Jack Nasri (Sam Worthington), a former navy warrior who was wounded in battle and decided to go to the dead compatriot, came to Pandora to control Dr. Grace (Sigourney Weaver) The \"Avatar\" hybrid creature created by the combination of human genes and local Nami tribe genes. Jack's goal was to break into the Nazi tribes, and diplomacy persuaded them to voluntarily leave their homes for generations, so that SecFor could cut down the area's virgin forests and mine expensive \"unreachable\" mines. In the process of exploring Pandora, Jack met the Princess Natyre (Ze Saldana) and learned about Na's survival skills and attitude towards nature. At the same time, SecFor's manager and military representative, Colonel Miles (St. Stephen Stephen Lang), gradually lost patience and decided to resort to force to drive the Na'vi..",
+    "pic": "image/8.png",
+    "actor": "Sam Worthington / Zoe Saldana",
+    "duration": 162,
+    "star": 5,
+    "publish_time": "2010-01-04T00:00:00Z",
+    "create_time": "2019-03-14T22:38:44.979Z",
+    "classify": 6
+  }
+},
+{
+  "model": "myapp.moviemodel",
+  "pk": 10,
+  "fields": {
+    "name": "Hello Mr. Billionaire",
+    "detail": "Wang Duoyu (Shen Teng), the goalkeeper of the Xiangxiang team of Xihong City, was fired by the coach because of the loss of the game. Wang Duoyu suddenly received the invitation of the mysterious person Jin Bo (Zhang Chenguang) and was told that he was It turned out to be the sole heir to the insurance tycoon Wang Laotai (Li Liqun), with a legacy of up to 10 billion! However, Wang Laotai gave a very wonderful condition, that is, Wang Duoyu was asked to spend one billion yuan in a month, and he could not tell the people around him, otherwise he would lose the inheritance right. Wang Duoyu did not hesitate to sign the \"military order\", and together with his friend Zhuang Qiang (Zhang Yiming) and the financial Xiazhu (Song Yihua), he opened the \"golden journey\" and will soon become the richest man in Xihong City. For the first time, I felt the happiness of being a rich man. I also found that it is not so simple to spend money!",
+    "pic": "image/91.jpeg",
+    "actor": "Shen Teng / Song Yihua",
+    "duration": 118,
+    "star": 2,
+    "publish_time": "2018-07-27T00:00:00Z",
+    "create_time": "2019-03-14T22:40:21.423Z",
+    "classify": 1
+  }
+},
+{
+  "model": "myapp.moviemodel",
+  "pk": 11,
+  "fields": {
+    "name": "The Conjuring",
+    "detail": "The Conjuring is a 2013 American supernatural horror film directed by James Wan and written by Chad Hayes and Carey W. Hayes. It is the inaugural film in The Conjuring Universe franchise.[3] Patrick Wilson and Vera Farmiga star as Ed and Lorraine Warren, paranormal investigators and authors associated with prominent cases of haunting. Their purportedly real-life reports inspired The Amityville Horror story and film franchise.[4] The Warrens come to the assistance of the Perron family, who experienced increasingly disturbing events in their farmhouse in Rhode Island in 1971",
+    "pic": "image/11.jpg",
+    "actor": "Patrick Wilson, Vera Farmiga",
+    "duration": 112,
+    "star": 5,
+    "publish_time": "2013-07-15T23:30:28Z",
+    "create_time": "2019-03-16T23:30:30.021Z",
+    "classify": 5
+  }
+},
+{
+  "model": "myapp.moviemodel",
+  "pk": 12,
+  "fields": {
+    "name": "Captain Marvel",
+    "detail": "Captain Marvel is a 2019 American superhero film based on the Marvel Comics character Carol Danvers. Produced by Marvel Studios and distributed by Walt Disney Studios Motion Pictures, it is the twenty-first film in the Marvel Cinematic Universe (MCU). The film is written and directed by Anna Boden and Ryan Fleck, with Geneva Robertson-Dworet also contributing to the screenplay. Brie Larson stars as Danvers, alongside Samuel L. Jackson, Ben Mendelsohn, Djimon Hounsou, Lee Pace, Lashana Lynch, Gemma Chan, Annette Bening, Clark Gregg, and Jude Law. Set in 1995, the story follows Danvers as she becomes Captain Marvel after Earth is caught in the center of a galactic conflict between two alien worlds.",
+    "pic": "image/12.jpg",
+    "actor": "Brie Larson / Samuel L. Jackson",
+    "duration": 124,
+    "star": 5,
+    "publish_time": "2019-02-27T23:35:32Z",
+    "create_time": "2019-03-16T23:35:40.539Z",
+    "classify": 4
+  }
+},
+{
+  "model": "myapp.moviemodel",
+  "pk": 13,
+  "fields": {
+    "name": "Avengers: Endgame",
+    "detail": "Avengers: Endgame is an upcoming American superhero film based on the Marvel Comics superhero team the Avengers, produced by Marvel Studios and set for distribution by Walt Disney Studios Motion Pictures. It is the direct sequel to 2018's Avengers: Infinity War, a sequel to 2012's Marvel's The Avengers and 2015's Avengers: Age of Ultron, and the 22nd film in the Marvel Cinematic Universe (MCU). The film is directed by Anthony and Joe Russo with a screenplay by Christopher Markus and Stephen McFeely and features an ensemble cast including Robert Downey Jr., Chris Evans, Mark Ruffalo, Chris Hemsworth, Scarlett Johansson, Jeremy Renner, Don Cheadle, Paul Rudd, Brie Larson, Karen Gillan, Danai Gurira, Benedict Wong, Jon Favreau, Bradley Cooper, Gwyneth Paltrow, and Josh Brolin. In the film, the surviving members of the Avengers work to reverse the damage caused by Thanos in Infinity War.",
+    "pic": "image/13.jpg",
+    "actor": "Robert Downey Jr. / Chris Evans",
+    "duration": 120,
+    "star": 2,
+    "publish_time": "2019-04-26T23:41:10Z",
+    "create_time": "2019-03-16T23:41:13.631Z",
+    "classify": 4
+  }
+},
+{
+  "model": "myapp.moviemodel",
+  "pk": 14,
+  "fields": {
+    "name": "Ultraman Zero: The Revenge of Belial",
+    "detail": "Ultraman Zero THE MOVIE Super Decisive Battle! Belial Galactic Empire (\u30a6\u30eb\u30c8\u30e9\u30de\u30f3\u30bc\u30ed THE MOVIE \u8d85\u6c7a\u6226\uff01\u30d9\u30ea\u30a2\u30eb\u9280\u6cb3\u5e1d\u56fd Urutoraman Zero THE MOVIE: Ch\u014dkessen! Beriaru Ginga Teikoku, lit. \"Ultraman Zero The Movie: Super Deciding Fight! The Belial Galactic Empire\") is a 2010 Japanese superhero film in the Ultra Series to celebrate the franchise's 45th anniversary.[1] It serves as a sequel to Mega Monster Battle: Ultra Galaxy Legend The Movie. The catchphrases for the movie are \"Kaiser Belial descent. Zero, fight with light!\" and \"This is our light!\".",
+    "pic": "image/14.jpg",
+    "actor": "\u5c0f\u67f3 \u53cb / \u6ff1\u7530 \u9f8d\u81e3",
+    "duration": 100,
+    "star": 4,
+    "publish_time": "2010-12-23T23:51:22Z",
+    "create_time": "2019-03-16T23:51:25.976Z",
+    "classify": 7
+  }
+},
+{
+  "model": "myapp.moviemodel",
+  "pk": 15,
+  "fields": {
+    "name": "Ultraman Saga",
+    "detail": "Ultraman Saga (\u30a6\u30eb\u30c8\u30e9\u30de\u30f3\u30b5\u30fc\u30ac Urutoraman S\u0101ga) is a 2012 Japanese tokusatsu, superhero and kaiju film in the Ultra Series to celebrate the franchise's 45th anniversary. It serves as a sequel to Ultraman Zero: The Revenge of Belial. The catchphrase for the movie is \"We Still Have Glittering Hope!!\" (\u50d5\u3089\u306b\u306f\u307e\u3060\u3001\u8f1d\u304f\u5e0c\u671b\u304c\u3042\u308b!! Bokura ni wa Mada, Kagayaku Kib\u014d ga Aru!!). The film features Ultraman Zero, Ultraman Dyna, and Ultraman Cosmos as well as the five Ultra Brothers facing a new ultimate threat, Hyper Zetton (\u30cf\u30a4\u30d1\u30fc\u30bc\u30c3\u30c8\u30f3 Haip\u0101 Zetton) and the monster army created by the evil Alien Bat (\u30d0\u30c3\u30c8\u661f\u4eba Batto Seijin). The film also features a new Ultraman known as Ultraman Saga (\u30a6\u30eb\u30c8\u30e9\u30de\u30f3\u30b5\u30fc\u30ac Urutoraman S\u0101ga). The movie is set in the world of Ultraman Dyna, taking place 15 years after the series and features much of the supporting cast returning. A selection of members from the idol group AKB48 has been chosen to portray the characters of Team-U, a special monster attack team part of the fictional Earth Defense Force.",
+    "pic": "image/15.jpg",
+    "actor": "\u30bf\u30a4\u30ac\u30fb\u30ce\u30be\u30e0 / \u30a2\u30b9\u30ab\u30fb\u30b7\u30f3",
+    "duration": 90,
+    "star": 5,
+    "publish_time": "2012-03-24T23:53:42Z",
+    "create_time": "2019-03-16T23:53:47.161Z",
+    "classify": 7
+  }
+},
+{
+  "model": "myapp.moviemodel",
+  "pk": 16,
+  "fields": {
+    "name": "The Conjuring 2",
+    "detail": "The Conjuring 2 (also known as The Conjuring 2: The Enfield Case)[4][5] is a 2016 American supernatural horror film, directed by James Wan. The screenplay is by Chad Hayes, Carey W. Hayes, Wan, and David Leslie Johnson. It is the sequel to 2013's The Conjuring, the second installment in The Conjuring series, and the third installment in the Conjuring Universe franchise. Patrick Wilson and Vera Farmiga reprise their roles as paranormal investigators and authors Ed and Lorraine Warren from the first film. The film follows the Warrens as they travel to Britain to assist the Hodgson family, who are experiencing poltergeist activity at their Enfield council house in 1977 which later became referred to as the Enfield Poltergeist.",
+    "pic": "image/16.jpg",
+    "actor": "Patrick Wilson / Vera Farmiga",
+    "duration": 134,
+    "star": 5,
+    "publish_time": "2016-06-07T21:10:21Z",
+    "create_time": "2019-03-17T21:10:25.656Z",
+    "classify": 5
+  }
+},
+{
+  "model": "myapp.moviemodel",
+  "pk": 17,
+  "fields": {
+    "name": "The Legend of 1900",
+    "detail": "The Legend of 1900 (Italian: La leggenda del pianista sull'oceano, \"The Legend of the Pianist on the Ocean\") is a 1998 Italian drama film directed by Giuseppe Tornatore and starring Tim Roth, Pruitt Taylor Vince and M\u00e9lanie Thierry. It was Tornatore's first English-language film.[2] The film is inspired by Novecento, a monologue by Alessandro Baricco. The film was nominated for a variety of awards worldwide, winning several for its soundtrack.",
+    "pic": "image/17.jpg",
+    "actor": "Tim Roth",
+    "duration": 125,
+    "star": 5,
+    "publish_time": "1998-10-28T21:33:39Z",
+    "create_time": "2019-03-17T21:35:00.348Z",
+    "classify": 8
+  }
+},
+{
+  "model": "myapp.moviemodel",
+  "pk": 18,
+  "fields": {
+    "name": "The Truman Show",
+    "detail": "The Truman Show is a 1998 American satirical science fiction film[4] directed by Peter Weir, produced by Scott Rudin, Andrew Niccol, Edward S. Feldman, and Adam Schroeder, and written by Niccol. The film stars Jim Carrey as Truman Burbank, adopted and raised by a corporation inside a simulated television show revolving around his life, until he discovers it and decides to escape. Additional roles are performed by Laura Linney, Noah Emmerich, Natascha McElhone, Holland Taylor, Ed Harris, and Brian Delate.",
+    "pic": "image/18.jpg",
+    "actor": "Jim Carrey / Laura Linney",
+    "duration": 103,
+    "star": 5,
+    "publish_time": "1998-06-01T21:41:32Z",
+    "create_time": "2019-03-17T21:41:37.524Z",
+    "classify": 8
+  }
+},
+{
+  "model": "myapp.moviemodel",
+  "pk": 19,
+  "fields": {
+    "name": "Ultraman Orb The Movie",
+    "detail": "Ultraman Orb The Movie (\u5287\u5834\u7248 \u30a6\u30eb\u30c8\u30e9\u30de\u30f3\u30aa\u30fc\u30d6 \u7d46\u306e\u529b\u3001\u304a\u304b\u308a\u3057\u307e\u3059\uff01 Gekij\u014dban Urutoraman \u014cbu Kizuna no Chikara, Okarishimasu!, also called \"Ultraman Orb The Movie: I'm Borrowing the Power of Your Bonds!\") is a Japanese superhero and Kaiju film, serving as the film adaptation of the 2016 Ultra Series television series Ultraman Orb. It was released in March 11, 2017, in celebration to the 50th anniversary of Ultra Seven where the titular character himself and his son Ultraman Zero is set to appear.[1] Both Blu-Ray and the DVD is set to be released on 28 July 2017.",
+    "pic": "image/19.jpg",
+    "actor": "\u77f3\u9ed2 \u82f1\u96c4",
+    "duration": 72,
+    "star": 5,
+    "publish_time": "2017-03-11T21:51:26Z",
+    "create_time": "2019-03-17T21:51:30.517Z",
+    "classify": 7
+  }
+},
+{
+  "model": "myapp.moviemodel",
+  "pk": 20,
+  "fields": {
+    "name": "Wonder Woman",
+    "detail": "Wonder Woman is a 2017 American superhero film based on the DC Comics character of the same name, produced by DC Entertainment in association with RatPac Entertainment and Chinese company Tencent Pictures, and distributed by Warner Bros. Pictures. It is the fourth installment in the DC Extended Universe (DCEU).[6] Directed by Patty Jenkins from a screenplay by Allan Heinberg and a story by Heinberg, Zack Snyder, and Jason Fuchs, Wonder Woman stars Gal Gadot in the title role, alongside Chris Pine, Robin Wright, Danny Huston, David Thewlis, Connie Nielsen, and Elena Anaya. It is the second live action theatrical film featuring Wonder Woman following her debut in 2016's Batman v Superman: Dawn of Justice.[7] In Wonder Woman, the Amazon princess Diana sets out to stop World War I, believing the conflict was started by the longtime enemy of the Amazons, Ares, after American pilot and spy Steve Trevor crash-lands on their island Themyscira and informs her about it.",
+    "pic": "image/20.jpg",
+    "actor": "Gal Gadot",
+    "duration": 141,
+    "star": 5,
+    "publish_time": "2017-03-15T22:07:31Z",
+    "create_time": "2019-03-17T22:07:51.653Z",
+    "classify": 4
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 4,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 4,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 4,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 5,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 5,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 5,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can add \u7528\u6237\u4fe1\u606f",
+    "content_type": 6,
+    "codename": "add_userprofile"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can change \u7528\u6237\u4fe1\u606f",
+    "content_type": 6,
+    "codename": "change_userprofile"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can delete \u7528\u6237\u4fe1\u606f",
+    "content_type": 6,
+    "codename": "delete_userprofile"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can add classify model",
+    "content_type": 7,
+    "codename": "add_classifymodel"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can change classify model",
+    "content_type": 7,
+    "codename": "change_classifymodel"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can delete classify model",
+    "content_type": 7,
+    "codename": "delete_classifymodel"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can add \u5e16\u5b50",
+    "content_type": 8,
+    "codename": "add_moviemodel"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can change \u5e16\u5b50",
+    "content_type": 8,
+    "codename": "change_moviemodel"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can delete \u5e16\u5b50",
+    "content_type": 8,
+    "codename": "delete_moviemodel"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add comment model",
+    "content_type": 9,
+    "codename": "add_commentmodel"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change comment model",
+    "content_type": 9,
+    "codename": "change_commentmodel"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete comment model",
+    "content_type": 9,
+    "codename": "delete_commentmodel"
+  }
+},
+{
+  "model": "custom_user.userprofile",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$36000$DWKfDdo6hf2P$7NQGmELpGnUpi3PIDd9ymI3NyaT175E4FZJKARKuGsQ=",
+    "last_login": "2019-03-21T15:28:48.783Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "admin@qq.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2019-03-14T21:52:24.218Z",
+    "mobile": null,
+    "image": "image/default.png",
+    "wechat": null,
+    "location": null,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "custom_user.userprofile",
+  "pk": 2,
+  "fields": {
+    "password": "pbkdf2_sha256$36000$v0j2oEtGEPa7$FKPKY82gYsfiJb6Jv83tRQidZpWqU1M4hL1l8whrAaA=",
+    "last_login": "2019-03-20T20:37:09.488Z",
+    "is_superuser": false,
+    "username": "Ruosong Mei",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2019-03-15T08:33:14.118Z",
+    "mobile": null,
+    "image": "image/default.png",
+    "wechat": null,
+    "location": null,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "custom_user.userprofile",
+  "pk": 3,
+  "fields": {
+    "password": "pbkdf2_sha256$36000$Ab95fxV9lGG8$1wFVC3lqP7+Fd05Jj0s7lTOXOQJPcLi+gz4JKkYWaxQ=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "admin11",
+    "first_name": "",
+    "last_name": "",
+    "email": "hippop@vip.qq.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2019-03-16T00:23:35.481Z",
+    "mobile": "18679508787",
+    "image": "image/default.png",
+    "wechat": null,
+    "location": null,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "custom_user.userprofile",
+  "pk": 4,
+  "fields": {
+    "password": "pbkdf2_sha256$36000$dhznh1atEOPO$vV5zBgjFy72iVa2umFgx5sDfi1mJpXDqTscYrlCHfBk=",
+    "last_login": "2019-03-16T00:51:57.971Z",
+    "is_superuser": false,
+    "username": "admin222",
+    "first_name": "",
+    "last_name": "",
+    "email": "hzqgighzp1996@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2019-03-16T00:25:41.848Z",
+    "mobile": "18679508787",
+    "image": "image/default.png",
+    "wechat": null,
+    "location": null,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "custom_user.userprofile",
+  "pk": 5,
+  "fields": {
+    "password": "pbkdf2_sha256$36000$5N2fojzNqdrG$+4Iudoo+gbJZ+nvjcsRZGg0PX6RRKgymoWw7l4QKEa8=",
+    "last_login": "2019-03-16T08:25:49.699Z",
+    "is_superuser": false,
+    "username": "jason",
+    "first_name": "",
+    "last_name": "",
+    "email": "yangyi012017@outlook.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2019-03-16T08:25:40.317Z",
+    "mobile": "18861121739",
+    "image": "image/default.png",
+    "wechat": null,
+    "location": null,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "custom_user.userprofile",
+  "pk": 6,
+  "fields": {
+    "password": "pbkdf2_sha256$36000$usZyfZ3nRzux$Qay2r+xfNvxRDNutvtsnzrRofeJDKLDq7bz6qbKtrK4=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "admin433",
+    "first_name": "",
+    "last_name": "",
+    "email": "hippop@vip.qq.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2019-03-16T22:02:51.233Z",
+    "mobile": "7895688442",
+    "image": "image/default.png",
+    "wechat": null,
+    "location": null,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "custom_user.userprofile",
+  "pk": 7,
+  "fields": {
+    "password": "pbkdf2_sha256$36000$bcfTiXYs1Q2N$sxo3wyGaRPpn0hsaX17S9n+uGIVtrKXoPOJngojRK7Q=",
+    "last_login": "2019-03-16T22:11:36.937Z",
+    "is_superuser": false,
+    "username": "jason11",
+    "first_name": "",
+    "last_name": "",
+    "email": "hippop@vip.qq.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2019-03-16T22:11:34.183Z",
+    "mobile": null,
+    "image": "image/default.png",
+    "wechat": null,
+    "location": null,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "myapp.commentmodel",
+  "pk": 1,
+  "fields": {
+    "person": 1,
+    "content": "4567547",
+    "score": 80,
+    "create_time": "2019-03-15T00:21:41.322Z",
+    "movie": 4
+  }
+},
+{
+  "model": "myapp.commentmodel",
+  "pk": 2,
+  "fields": {
+    "person": 1,
+    "content": "rtrety",
+    "score": 80,
+    "create_time": "2019-03-15T00:22:02.810Z",
+    "movie": 4
+  }
+},
+{
+  "model": "myapp.commentmodel",
+  "pk": 3,
+  "fields": {
+    "person": 1,
+    "content": "sdasd",
+    "score": 80,
+    "create_time": "2019-03-15T03:03:54.534Z",
+    "movie": 1
+  }
+},
+{
+  "model": "myapp.commentmodel",
+  "pk": 4,
+  "fields": {
+    "person": 1,
+    "content": "asssdas",
+    "score": 80,
+    "create_time": "2019-03-15T03:04:00.195Z",
+    "movie": 1
+  }
+},
+{
+  "model": "myapp.commentmodel",
+  "pk": 5,
+  "fields": {
+    "person": 1,
+    "content": "\u6e05\u6e05\u6d45\u6d45",
+    "score": 80,
+    "create_time": "2019-03-15T03:04:49.665Z",
+    "movie": 6
+  }
+},
+{
+  "model": "myapp.commentmodel",
+  "pk": 14,
+  "fields": {
+    "person": 1,
+    "content": "\u641c\u5927\u53d4\u5927\u53d4\u5927\u53d4\u5927\u7684\u6492\u7684",
+    "score": 12,
+    "create_time": "2019-03-16T18:36:23.028Z",
+    "movie": 10
+  }
+},
+{
+  "model": "myapp.commentmodel",
+  "pk": 16,
+  "fields": {
+    "person": 1,
+    "content": "It's good right?",
+    "score": 80,
+    "create_time": "2019-03-17T22:10:03.667Z",
+    "movie": 20
+  }
+},
+{
+  "model": "myapp.commentmodel",
+  "pk": 17,
+  "fields": {
+    "person": 2,
+    "content": "11111",
+    "score": 98,
+    "create_time": "2019-03-20T20:16:29.463Z",
+    "movie": 8
+  }
+},
+{
+  "model": "myapp.commentmodel",
+  "pk": 18,
+  "fields": {
+    "person": 2,
+    "content": "very good",
+    "score": 80,
+    "create_time": "2019-03-20T20:23:32.754Z",
+    "movie": 3
+  }
+},
+{
+  "model": "myapp.commentmodel",
+  "pk": 19,
+  "fields": {
+    "person": 2,
+    "content": "very bad",
+    "score": 20,
+    "create_time": "2019-03-20T20:24:17.726Z",
+    "movie": 3
+  }
+},
+{
+  "model": "myapp.commentmodel",
+  "pk": 20,
+  "fields": {
+    "person": 2,
+    "content": "vey good",
+    "score": 50,
+    "create_time": "2019-03-20T20:31:54.234Z",
+    "movie": 13
+  }
+},
+{
+  "model": "myapp.commentmodel",
+  "pk": 21,
+  "fields": {
+    "person": 2,
+    "content": "very good",
+    "score": 100,
+    "create_time": "2019-03-20T20:32:31.253Z",
+    "movie": 13
+  }
+},
+{
+  "model": "myapp.commentmodel",
+  "pk": 22,
+  "fields": {
+    "person": 2,
+    "content": "very good",
+    "score": 70,
+    "create_time": "2019-03-20T20:38:46.210Z",
+    "movie": 13
+  }
+},
+{
+  "model": "myapp.commentmodel",
+  "pk": 23,
+  "fields": {
+    "person": 2,
+    "content": "very bad",
+    "score": 0,
+    "create_time": "2019-03-20T20:39:22.526Z",
+    "movie": 13
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2019-03-14T22:06:43.709Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "ClassifyModel object",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2019-03-14T22:06:53.904Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "MovieModel object",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2019-03-14T22:21:14.396Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "\u52a8\u4f5c",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2019-03-14T22:21:32.103Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "\u7231\u60c5",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2019-03-14T22:21:39.131Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "\u79d1\u5e7b",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2019-03-14T22:21:56.348Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "5",
+    "object_repr": "\u6050\u6016",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2019-03-14T22:22:04.442Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "6",
+    "object_repr": "\u5192\u9669",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2019-03-14T22:24:17.848Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "2",
+    "object_repr": "MovieModel object",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2019-03-14T22:26:07.796Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "3",
+    "object_repr": "MovieModel object",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2019-03-14T22:27:45.139Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "4",
+    "object_repr": "MovieModel object",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2019-03-14T22:29:47.992Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "5",
+    "object_repr": "MovieModel object",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2019-03-14T22:32:54.043Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "6",
+    "object_repr": "MovieModel object",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2019-03-14T22:35:43.524Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "7",
+    "object_repr": "MovieModel object",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2019-03-14T22:37:18.370Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "8",
+    "object_repr": "MovieModel object",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2019-03-14T22:38:44.983Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "9",
+    "object_repr": "MovieModel object",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2019-03-14T22:40:21.443Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "10",
+    "object_repr": "MovieModel object",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2019-03-16T08:52:54.827Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "9",
+    "object_repr": "MovieModel object",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"name\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2019-03-16T02:24:24.171Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "10",
+    "object_repr": "MovieModel object",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"name\", \"detail\", \"actor\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2019-03-16T02:24:48.102Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "10",
+    "object_repr": "MovieModel object",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2019-03-16T02:26:45.284Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "9",
+    "object_repr": "MovieModel object",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"detail\", \"actor\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2019-03-16T02:29:03.616Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "8",
+    "object_repr": "MovieModel object",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"name\", \"detail\", \"actor\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2019-03-16T02:33:32.731Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "7",
+    "object_repr": "MovieModel object",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"name\", \"detail\", \"actor\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 23,
+  "fields": {
+    "action_time": "2019-03-16T02:34:09.872Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "7",
+    "object_repr": "MovieModel object",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 24,
+  "fields": {
+    "action_time": "2019-03-16T02:36:58.770Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "6",
+    "object_repr": "MovieModel object",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"name\", \"detail\", \"actor\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 25,
+  "fields": {
+    "action_time": "2019-03-16T02:39:33.173Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "5",
+    "object_repr": "MovieModel object",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"name\", \"detail\", \"actor\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 26,
+  "fields": {
+    "action_time": "2019-03-16T02:41:56.398Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "4",
+    "object_repr": "MovieModel object",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"name\", \"detail\", \"actor\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 27,
+  "fields": {
+    "action_time": "2019-03-16T02:46:20.295Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "3",
+    "object_repr": "MovieModel object",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"name\", \"detail\", \"actor\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 28,
+  "fields": {
+    "action_time": "2019-03-16T02:49:00.948Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "2",
+    "object_repr": "MovieModel object",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"name\", \"detail\", \"actor\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 29,
+  "fields": {
+    "action_time": "2019-03-16T02:50:36.031Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "MovieModel object",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"name\", \"detail\", \"actor\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 30,
+  "fields": {
+    "action_time": "2019-03-16T02:51:16.743Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "6",
+    "object_repr": "Adventure",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"name\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 31,
+  "fields": {
+    "action_time": "2019-03-16T02:51:28.576Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "5",
+    "object_repr": "Scary",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"name\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 32,
+  "fields": {
+    "action_time": "2019-03-16T02:51:57.438Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "Science fiction",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"name\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 33,
+  "fields": {
+    "action_time": "2019-03-16T02:52:30.917Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "Romantic",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"name\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 34,
+  "fields": {
+    "action_time": "2019-03-16T02:52:38.551Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Action",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"name\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 35,
+  "fields": {
+    "action_time": "2019-03-16T02:52:48.486Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Comedy",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"name\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 36,
+  "fields": {
+    "action_time": "2019-03-16T02:53:18.036Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "5",
+    "object_repr": "Horror",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"name\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 37,
+  "fields": {
+    "action_time": "2019-03-16T23:16:14.662Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "9",
+    "object_repr": "CommentModel object",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 38,
+  "fields": {
+    "action_time": "2019-03-16T23:16:14.669Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "10",
+    "object_repr": "CommentModel object",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 39,
+  "fields": {
+    "action_time": "2019-03-16T23:30:30.022Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "11",
+    "object_repr": "The Conjuring",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 40,
+  "fields": {
+    "action_time": "2019-03-16T23:35:40.540Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "12",
+    "object_repr": "Captain Marvel",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 41,
+  "fields": {
+    "action_time": "2019-03-16T23:41:13.632Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "13",
+    "object_repr": "Avengers: Endgame",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 42,
+  "fields": {
+    "action_time": "2019-03-16T23:46:13.070Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "7",
+    "object_repr": "Tokusatsu",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 43,
+  "fields": {
+    "action_time": "2019-03-16T23:51:25.976Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "14",
+    "object_repr": "Ultraman Zero: The Revenge of Belial",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 44,
+  "fields": {
+    "action_time": "2019-03-16T23:53:47.162Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "15",
+    "object_repr": "Ultraman Saga",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 45,
+  "fields": {
+    "action_time": "2019-03-16T23:58:12.814Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "8",
+    "object_repr": "CommentModel object",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 46,
+  "fields": {
+    "action_time": "2019-03-17T21:08:01.660Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "10",
+    "object_repr": "Hello Mr. Billionaire",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"pic\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 47,
+  "fields": {
+    "action_time": "2019-03-17T21:10:25.657Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "16",
+    "object_repr": "The Conjuring 2",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 48,
+  "fields": {
+    "action_time": "2019-03-17T21:34:58.545Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "8",
+    "object_repr": "Literary",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 49,
+  "fields": {
+    "action_time": "2019-03-17T21:35:00.348Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "17",
+    "object_repr": "The Legend of 1900",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 50,
+  "fields": {
+    "action_time": "2019-03-17T21:41:37.525Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "18",
+    "object_repr": "The Truman Show",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 51,
+  "fields": {
+    "action_time": "2019-03-17T21:51:30.518Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "19",
+    "object_repr": "Ultraman Orb The Movie",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 52,
+  "fields": {
+    "action_time": "2019-03-17T21:55:08.815Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "15",
+    "object_repr": "CommentModel object",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 53,
+  "fields": {
+    "action_time": "2019-03-17T22:07:51.653Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "20",
+    "object_repr": "Wonder Woman",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 54,
+  "fields": {
+    "action_time": "2019-03-20T00:41:33.046Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "6",
+    "object_repr": "CommentModel object",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 55,
+  "fields": {
+    "action_time": "2019-03-20T00:41:33.053Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "7",
+    "object_repr": "CommentModel object",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 56,
+  "fields": {
+    "action_time": "2019-03-20T00:41:33.055Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "11",
+    "object_repr": "CommentModel object",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 57,
+  "fields": {
+    "action_time": "2019-03-20T00:41:33.058Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "12",
+    "object_repr": "CommentModel object",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 58,
+  "fields": {
+    "action_time": "2019-03-20T00:41:33.060Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "13",
+    "object_repr": "CommentModel object",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 59,
+  "fields": {
+    "action_time": "2019-03-20T00:42:59.286Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "4",
+    "object_repr": "New Police Story",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"star\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 60,
+  "fields": {
+    "action_time": "2019-03-20T00:43:14.825Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "3",
+    "object_repr": "Fast & Furious 7",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"star\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 61,
+  "fields": {
+    "action_time": "2019-03-20T00:43:57.042Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "20",
+    "object_repr": "Wonder Woman",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"star\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 62,
+  "fields": {
+    "action_time": "2019-03-20T00:44:05.329Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "19",
+    "object_repr": "Ultraman Orb The Movie",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"star\"]}}]"
+  }
+}
+]

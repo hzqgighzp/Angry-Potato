@@ -1,0 +1,185 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+{% block csstyle %}
+    <style>
+        .content_head{width: 50%;float: left;}
+        .image_show{width: 23%;float: left;margin-left: 290px;}
+        .time{color: #999;margin: 10px;}
+        .clearfloat{clear:both}
+    .comment-content
+{
+    height: 260px;
+    font-size: 14px;
+    text-align: left;
+    overflow: auto;
+    user-modify: read-write-plaintext-only;
+    margin: 5px 8%;
+    border: solid 1px darkgray;
+    border-radius: 10px;
+}
+.comment-publish {
+    font-size: 14px;
+    text-align: center;
+    margin: auto;
+    width: 80%;
+}
+
+    </style>
+    <script>
+    $(function () {
+        $("nav").addClass("scrolled").addClass("awake");
+    })
+    window.onscroll= function(){
+                
+                var t = document.documentElement.scrollTop||document.body.scrollTop;
+                var scrollup = document.getElementById('scrollup');
+                $("nav").addClass("scrolled").addClass("awake").addClass("pb_navbar");
+                $("nav").css({"position":"fixed","background-color": "#170707"});
+            }
+
+    function publishTie()
+        {
+            {% if request.user.username %}
+                var username = "{{ request.user.username }}";
+            {% else %}
+                var username = "";
+            {% endif %}
+            if (username == "")
+            {
+                alert("You have to login to comment");
+                return;
+            }
+            var uid = "{{ item.id }}";
+            var content = $(".comment-content").html();
+            var score = $("#score").val();
+            var data = {"content":content, "id": uid, "score": score};
+            $.post("{% url 'publishcomment' %}", data, function(result)
+            {
+                var err = result["err"];
+                if (err ==0)
+                {
+                    $(".comment-content").html("");
+                    window.location.href = "{% url 'movie_detail' %}?id={{item.id}}";
+                }
+            });
+        }
+    </script>
+
+{% endblock %}
+
+{% block content %}
+    {% if item.id == 1 %}
+    <iframe width="100%" height="660" src="https://www.youtube.com/embed/21kTCt8z9sg?rel=0&amp;showinfo=0&amp;start=8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    {% endif %}
+    {% if item.id == 2 %}
+    <iframe width="100%" height="660" src="https://www.youtube.com/embed/DG1lS5CDIqM?rel=0&amp;showinfo=0&amp;start=6" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"></iframe>
+    {% endif %}
+    {% if item.id == 3 %}
+    <iframe width="100%" height="660" src="https://www.youtube.com/embed/-Az8oQgTSFs?rel=0&amp;showinfo=0&amp;start=6" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    {% endif %}
+    {% if item.id == 4 %}
+    <iframe width="100%" height="660" src="https://www.youtube.com/embed/DdEvxSxZAdE?rel=0&amp;showinfo=0&amp;start=13" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    {% endif %}
+    {% if item.id == 5 %}
+    <iframe width="100%" height="660" src="https://www.youtube.com/embed/S-1QgOMQ-ls?rel=0&amp;showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    {% endif %}
+    {% if item.id == 6 %}
+    <iframe width="100%" height="660" src="https://www.youtube.com/embed/h7Mzqh5bfkI?rel=0&amp;showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    {% endif %}
+    {% if item.id == 7 %}
+    <iframe width="100%" height="660" src="https://www.youtube.com/embed/MFb0pKRFDTM?rel=0&amp;showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    {% endif %}
+    {% if item.id == 8 %}
+    <iframe width="100%" height="660" src="https://www.youtube.com/embed/6E44dDxcos8?rel=0&amp;showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    {% endif %}
+    {% if item.id == 9 %}
+    <iframe width="100%" height="660" src="https://www.youtube.com/embed/5PSNL1qE6VY?rel=0&amp;showinfo=0&amp;start=8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    {% endif %}
+    {% if item.id == 10 %}
+    <iframe width="100%" height="660" src="https://www.youtube.com/embed/JvV2rcrJaY4?rel=0&amp;showinfo=0&amp;start=8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    {% endif %}
+    {% if item.id == 11 %}
+    <iframe width="100%" height="660" src="https://www.youtube.com/embed/k10ETZ41q5o?rel=0&amp;showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    {% endif %}
+    {% if item.id == 12 %}
+    <iframe width="100%" height="660" src="https://www.youtube.com/embed/Z1BCujX3pw8?rel=0&amp;showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    {% endif %}
+    {% if item.id == 13 %}
+    <iframe width="100%" height="660" src="https://www.youtube.com/embed/TcMBFSGVi1c?rel=0&amp;showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    {% endif %}
+    {% if item.id == 14 %}
+    <iframe width="100%" height="660" src="https://www.youtube.com/embed/7EiboFFXIcI?rel=0&amp;showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    {% endif %}
+    {% if item.id == 15 %}
+    <iframe width="100%" height="660" src="https://www.youtube.com/embed/T6dWSZOf7ms?rel=0&amp;showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    {% endif %}
+    {% if item.id == 16 %}
+    <iframe width="100%" height="660" src="https://www.youtube.com/embed/VFsmuRPClr4?rel=0&amp;showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    {% endif %}
+    {% if item.id == 17 %}
+    <iframe width="100%" height="660" src="https://www.youtube.com/embed/2uf-LDlZMFE?rel=0&amp;showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    {% endif %}
+    {% if item.id == 18 %}
+    <iframe width="100%" height="660" src="https://www.youtube.com/embed/loTIzXAS7v4?rel=0&amp;showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    {% endif %}
+    {% if item.id == 19 %}
+    <iframe width="100%" height="660" src="https://www.youtube.com/embed/MBCWfFq0H7M?rel=0&amp;showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    {% endif %}
+    {% if item.id == 20 %}
+    <iframe width="100%" height="660" src="https://www.youtube.com/embed/VSB4wGIdDwo?rel=0&amp;showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    {% endif %}
+    <div style="width:100%; height:20px; background-color:rgba(255,255,255,0.7); text-align: center; ">
+    <h2>Trailer</h2>
+    </div>
+    <hr/>
+    <section class="pb_section pb_section_v1" data-section="about" id="index" style="margin-top: -100px;">
+    
+      <div class="container">
+          <div class="artical_content">
+            <div class="content_head">
+                <h3 class="article_title">{{item.name}}</h3>
+                <p class="time">Release Time：{{item.publish_time}}&nbsp;</p>
+                <p class="time">Score：{{item.star}} stars&nbsp;</p>
+                <p class="time">Duration：{{item.duration}} mins&nbsp;</p>
+            </div>
+           
+            <div class="image_show">
+                <img src="/{{ item.pic.url }}" style="width: 150px">
+            </div>
+           <div class="clearfloat"></div>
+            
+            <hr/>
+              <p>Introduction：</p>
+            <article>
+
+                {{item.detail|safe}}
+            </article>
+
+            <hr/>
+            <div class="feedback_area_title">
+                Comment:
+
+            </div>
+            <div style="text-align:left" id="commend_div_id">
+                {% for commend in item.tie_comment.all %}
+                
+                    <div class="commend-item">
+                        <div class="commend-people">
+                            {{commend.person }}<span class="commend-data">({{ commend.create_time }})</span>:
+                        </div>
+                        <div class="commend-speak">
+                            {{ commend.content | safe }}
+                        </div>
+                    </div>
+                {% endfor %}
+                
+                <div class="comment-content" contenteditable="true"></div>
+                <input type=text  name="q" placeholder='Rate here(0-100)' id="score" style="margin-left: 825px; margin-bottom: 5px;">
+                <div class="comment-publish">
+                    <button type="button" class="btn btn-primary" style="float: right" onclick="publishTie()">Publish</button>
+                </div>
+            </div>
+        </div>
+      </div>
+    </section>
+{% endblock %}

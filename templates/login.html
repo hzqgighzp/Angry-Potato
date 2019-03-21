@@ -1,0 +1,124 @@
+﻿<!DOCTYPE html>
+{% load staticfiles %}
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Angry Potato - Login</title>
+<script src="{% static 'js/jquery-1.10.2.min.js.download' %}"></script>
+
+<link rel="stylesheet" href="{% static 'css/bootstrap/bootstrap.min.css' %}">
+<link rel="stylesheet" href="{% static 'css/bootstrap/bootstrap-social.css' %}">
+<link rel="stylesheet" href="{% static 'fonts/fontawesome/css/font-awesome.min.css' %}">
+<link rel="stylesheet" type="text/css" href="{% static 'css/styles.css' %}">
+    <style type="text/css">
+        .error{
+            background: #fb8344;
+            color:#fff !important;
+            text-align: center;
+            line-height: 40px !important;
+            margin:10px 0;}
+    </style>
+</head>
+<body>
+
+<script>
+    function getCookie(name) {
+        var cookieValue = null;
+        if (document.cookie && document.cookie !== '') {
+            var cookies = document.cookie.split(';');
+            for (var i = 0; i < cookies.length; i++) {
+                var cookie = jQuery.trim(cookies[i]);
+                if (cookie.substring(0, name.length + 1) === (name + '=')) {
+                    cookieValue = decodeURIComponent(cookie.substring(name.length + 1));
+                    break;
+                }
+            }
+        }
+        return cookieValue;
+    }
+
+    window.fbAsyncInit = function () {
+        FB.init({
+            appId: '612727852508559',
+            cookie: true,
+            xfbml: true,  // parse social plugins on this page
+            version: 'v3.2' // use graph api version 3.2
+        });
+
+        FB.getLoginStatus(function (response) {
+        });
+
+    };
+
+    (function (d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s);
+        js.id = id;
+        js.src = "//connect.facebook.net/en_US/sdk.js";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+
+    function logout() {
+        FB.logout(function () {
+        });
+        $.get("/users/logout/", function () {
+            location.reload();
+        });
+        {#        location.href = "/users/logout/";#}
+    }
+
+    function login() {
+        FB.login(function (response) {
+            if (response.status === 'connected') {
+                FB.api('/me', function (response) {
+                    $.post("/users/facebook/", {
+                        csrfmiddlewaretoken: getCookie('csrftoken'),
+                        username: response.name,
+                        password: "facebook"
+                    }, function () {
+                        location.reload();
+                    });
+                });
+            }
+        });
+    }
+</script>
+
+<div class="htmleaf-container">
+	<div class="wrapper">
+		<div class="container">
+            {% if user.is_authenticated %}
+            <h1>Welcome, {{ user.username }}</h1>
+            <br/>
+            <a href="http://localhost:8000/"><h4>You have successfully logged in through facebook, click this link to go to homepage.</h4></a>
+            <br/>
+            <div class="social-buttons">
+            <button class="btn btn-tumblr" onclick="logout()" style="margin-top:8px">Logout</button>
+            </div>
+            {% else %}
+			<h1>Welcome</h1>
+			<form class="form" method="post" action="{% url 'users:login' %}">
+				<input type="text" placeholder="Username", name="uname">
+				<input type="password" placeholder="Password", name="pwd">
+				<input type="submit" value="Sign In" id="login-button"></input>
+                {% csrf_token %}
+			</form>
+            <div class="social-buttons">
+                <button type="button" class="btn btn-fb" onclick="login()">
+                        <span class="fa fa-facebook"></span> Facebook
+                </button>
+            </div>
+             <div class="error btns login-form-tips" id="jsLoginTips">{% for key,error in login_form.errors.items %}{{ error }}{% endfor %}{{ msg }}</div>
+            {% endif %}
+		</div>
+	</div>
+</div>
+<div style="text-align:center;margin:50px 0; font:normal 14px/24px 'MicroSoft YaHei';color:#000000">
+<a href="http://localhost:8000/"><h1>Angry Potato</h1></a>
+</div>
+
+</body>
+</html>
